@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Ph4re',
+  title: 'Pharos Lab',
   tagline: 'Easy web developement tools',
   favicon: 'img/favicon.ico',
 
@@ -18,7 +18,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'ph4re', // Usually your GitHub org/user name.
+  organizationName: 'pharos-lab', // Usually your GitHub org/user name.
   projectName: '', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -41,8 +41,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/pharos-lab/blink',
         },
         blog: false,
         theme: {
@@ -58,7 +57,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Ph4re',
+        title: 'Pharos lab',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -72,7 +71,7 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/pharos-lab/blink',
             label: 'GitHub',
             position: 'right',
           },

@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'pharos-lab', // Usually your GitHub org/user name.
-  projectName: '', // Usually your repo name.
+  projectName: 'Blink', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -65,11 +65,11 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'blink/intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Blink',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/docs/lantern/intro', label: 'Lantern', position: 'left' },
           {
             href: 'https://github.com/pharos-lab/blink',
             label: 'GitHub',

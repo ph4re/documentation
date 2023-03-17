@@ -28,3 +28,8 @@
   --ifm-color-primary-lightest: #e0f2fe;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.popper {
+  padding: 8px 12px;
+  background-color: gray;
+}

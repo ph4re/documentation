@@ -9,14 +9,16 @@ export default class Tooltip extends React.Component {
   }
 
   componentDidMount() {
-    Blink.create(trigger.current, popper.current);
+    Blink.create(this.trigger.current, this.popper.current, { arrow: true });
   }
 
   render() {
     return (
       <span>
-        <span ref={this.trigger}>{props.children}</span>
-        <div ref={this.popper}>{props.label}</div>
+        <span ref={this.trigger}>{this.props.children}</span>
+        <div className="popper" ref={this.popper}>
+          {this.props.label}
+        </div>
       </span>
     );
   }

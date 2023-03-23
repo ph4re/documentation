@@ -14,12 +14,12 @@ export default class Tooltip extends React.Component {
 
   render() {
     return (
-      <span>
+      <>
         <span ref={this.trigger}>{this.props.children}</span>
         <div className="popper" ref={this.popper}>
           {this.props.label}
         </div>
-      </span>
+      </>
     );
   }
 }
